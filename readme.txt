@@ -13,11 +13,11 @@ budget - Set investment amount.
 
 Outputs:
 Logfile.log - Contains projected growth for each sector and top 3 options even if not enough money is allocated.
-plots dir - Show model accuracy for each sector. R^2 values are very low since data is tough to predict.
+plots dir - Shows models accuracy for each sector. R^2 values are very low since data is tough to predict.
 
 Other:
 format_fixer.py - After changing filename variable run this program to make output files more readable.
 soup.html - Shows html input while scraping. If program crashes and a CloudFlare error is shown here just restart the program.
 
 Need to install a chrome driver for data collection through https://googlechromelabs.github.io/chrome-for-testing/
-All scraping is done in accordance to MacroTrends robots.txt
+All scraping is done in accordance to https://www.macrotrends.net/robots.txt
